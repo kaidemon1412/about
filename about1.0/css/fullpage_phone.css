@@ -1,0 +1,587 @@
+.about_my_content {
+  width: 100vw;
+  height: 700%;
+}
+
+.about_my_content .swiper-slide {
+  width: 100%;
+}
+
+.about_my_content .swiper-slide .phone_plate_title {
+  text-align: center;
+  position: relative;
+  height: 13.6vw;
+  line-height: 14.93333vw;
+}
+
+.about_my_content .swiper-slide .phone_plate_title .plate_title_text {
+  font-size: 4.53333vw;
+  font-weight: 500;
+}
+
+.about_my_content .swiper-slide .phone_plate_title .lsit_bottom {
+  width: 13.46667vw;
+  height: 1.06667vw;
+  display: block;
+  background-color: #ffc400;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.about_my_content .swiper-slide .guide_arrow {
+  padding-top: 80px;
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  z-index: 2;
+  display: block;
+  -webkit-transform: translate(-50%);
+  transform: translate(-50%);
+  color: #fff;
+  letter-spacing: .1em;
+  text-decoration: none;
+  transition: opacity .3s;
+}
+
+.about_my_content .swiper-slide .guide_arrow span {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 24px;
+  height: 24px;
+  margin-left: -12px;
+  border-left: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  -webkit-animation: myanimate 2s infinite;
+  animation: myanimate 2s infinite;
+  opacity: 0;
+  box-sizing: border-box;
+}
+
+.about_my_content .swiper-slide .guide_arrow span:nth-of-type(1) {
+  -webkit-animation-delay: 0s;
+  animation-delay: 0s;
+}
+
+.about_my_content .swiper-slide .guide_arrow span:nth-of-type(2) {
+  top: 16px;
+  -webkit-animation-delay: .15s;
+  animation-delay: .15s;
+}
+
+.about_my_content .swiper-slide .guide_arrow span:nth-of-type(3) {
+  top: 32px;
+  -webkit-animation-delay: .3s;
+  animation-delay: .3s;
+}
+
+.about_my_content .phone_fullpage_one {
+  background: url(../img/1.png) no-repeat;
+  background-size: 100% 100%;
+  height: 100%;
+}
+
+.about_my_content .phone_fullpage_tow {
+  background: url(../img/2.png) no-repeat;
+  background-size: 100% 100%;
+  position: relative;
+  height: 100%;
+}
+
+.about_my_content .phone_fullpage_tow .fp-tableCell .slimScrollDiv .fp-scrollable .fp-tableCell .slimScrollBar {
+  display: none;
+}
+
+.about_my_content .phone_fullpage_tow .secend_content_plate {
+  width: 90.13333vw;
+  background-color: white;
+  margin: 26.4vw auto;
+  padding-bottom: 0.1333vw;
+}
+
+.about_my_content .phone_fullpage_tow .secend_content_plate .phone_logo_img {
+  width: 100%;
+  display: block;
+  height: 40.66667vw;
+}
+
+.about_my_content .phone_fullpage_tow .secend_content_plate .content_plate_text {
+  width: 100%;
+}
+
+.about_my_content .phone_fullpage_tow .secend_content_plate .content_plate_text .phone_plate_title {
+  color: #2d2d2d;
+  text-align: center;
+  position: relative;
+  height: 13.6vw;
+  line-height: 14.93333vw;
+}
+
+.about_my_content .phone_fullpage_tow .secend_content_plate .content_plate_text .phone_plate_title .plate_title_text {
+  font-size: 4.53333vw;
+  font-weight: 500;
+}
+
+.about_my_content .phone_fullpage_tow .secend_content_plate .content_plate_text .phone_plate_title .lsit_bottom {
+  width: 13.46667vw;
+  height: 1.06667vw;
+  display: block;
+  background-color: #ffc400;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.about_my_content .phone_fullpage_tow .secend_content_plate .content_plate_text .phone_plate_paragraph {
+  width: 79.2vw;
+  margin: 4.26667vw auto 0;
+  text-indent: 1em;
+  color: #666;
+  font-size: 2.93333vw;
+  line-height: 6.8vw;
+  text-align: justify;
+}
+
+.about_my_content .phone_fullpage_tow .secend_content_plate .content_plate_text .none_dom_plate {
+  display: none;
+}
+
+.about_my_content .phone_fullpage_tow .secend_content_plate .phone_plate_stop {
+  color: #666666;
+  font-size: 2.93333vw;
+  text-align: center;
+  margin: 9.2vw;
+}
+
+.about_my_content .phone_fullpage_tow .secend_content_plate .phone_plate_stop .after_arrow {
+  width: 0;
+  height: 0;
+  position: relative;
+  top: 3vw;
+  left: 1vw;
+  border-top: 1.06667vw solid #666666;
+  border-right: 1.06667vw solid rgba(255, 255, 255, 0);
+  border-bottom: 1.06667vw solid rgba(255, 255, 255, 0);
+  border-left: 1.06667vw solid rgba(255, 255, 255, 0);
+}
+
+.about_my_content .phone_fullpage_three {
+  background: url(../img/3.png) no-repeat;
+  background-size: 100% 100%;
+  position: relative;
+}
+
+.about_my_content .phone_fullpage_three .phone_plate_title {
+  color: white;
+  margin-bottom: 0.66667vw;
+}
+
+.about_my_content .phone_fullpage_three .character_introduce_content {
+  width: 92vw;
+  margin: 0 auto 32vw;
+}
+
+.about_my_content .phone_fullpage_three .character_introduce_content .character_introduce_boss {
+  background-color: #fff;
+  padding: 7.06667vw 0 7.33333vw 7.06667vw;
+  margin-top: 4vw;
+}
+
+.about_my_content .phone_fullpage_three .character_introduce_content .character_introduce_boss .introduce_boss::after {
+  content: "\0020";
+  display: block;
+  height: 0;
+  clear: both;
+}
+
+.about_my_content .phone_fullpage_three .character_introduce_content .character_introduce_boss .introduce_boss .boss_photo {
+  display: block;
+  width: 33.06667vw;
+  height: 33.06667vw;
+  float: left;
+}
+
+.about_my_content .phone_fullpage_three .character_introduce_content .character_introduce_boss .introduce_boss .introduce_text {
+  width: 42.66667vw;
+  float: right;
+  text-align: left;
+}
+
+.about_my_content .phone_fullpage_three .character_introduce_content .character_introduce_boss .introduce_boss .introduce_text .boss_introduce_title {
+  color: #333333;
+  margin-top: 2.93333vw;
+  line-height: 10vw;
+}
+
+.about_my_content .phone_fullpage_three .character_introduce_content .character_introduce_boss .introduce_boss .introduce_text .boss_introduce_title .boss_name {
+  font-size: 5.06667vw;
+  margin-right: 2.13333vw;
+}
+
+.about_my_content .phone_fullpage_three .character_introduce_content .character_introduce_boss .introduce_boss .introduce_text .boss_introduce_title .boss_position {
+  font-size: 3.46667vw;
+}
+
+.about_my_content .phone_fullpage_three .character_introduce_content .character_introduce_boss .introduce_boss .introduce_text .boss_experience {
+  color: #999999;
+  font-size: 2.93333vw;
+  line-height: 5.33333vw;
+}
+
+.about_my_content .phone_fullpage_three .character_introduce_content .character_introduce_boss .introduce_content_text {
+  width: 71.6vw;
+  margin-top: 5.73333vw;
+  display: none;
+}
+
+.about_my_content .phone_fullpage_three .character_introduce_content .character_introduce_boss .introduce_content_text .content_paragraph {
+  text-align: justify;
+  color: #666666;
+  font-size: 2.93333vw;
+  margin-bottom: 4.8vw;
+}
+
+.about_my_content .phone_fullpage_three .character_introduce_content .character_introduce_boss .phone_plate_more {
+  width: 100%;
+  text-align: center;
+  color: #666666;
+  font-size: 2.93333vw;
+  margin-top: 6.53333vw;
+}
+
+.about_my_content .phone_fullpage_three .character_introduce_content .character_introduce_boss .phone_plate_more .after_arrow {
+  width: 0;
+  height: 0;
+  position: relative;
+  top: 3vw;
+  left: 1vw;
+  border-top: 1.06667vw solid #666666;
+  border-right: 1.06667vw solid rgba(255, 255, 255, 0);
+  border-bottom: 1.06667vw solid rgba(255, 255, 255, 0);
+  border-left: 1.06667vw solid rgba(255, 255, 255, 0);
+}
+
+.about_my_content .phone_fullpage_four {
+  background: url(../img/4.png) no-repeat;
+  background-size: 100% 100%;
+  position: relative;
+}
+
+.about_my_content .phone_fullpage_four .phone_plate_title {
+  color: #333333;
+}
+
+.about_my_content .phone_fullpage_four .core_technology_content {
+  width: 100%;
+  overflow: visible;
+}
+
+.about_my_content .phone_fullpage_four .core_technology_content .technology_content_lists {
+  width: 400%;
+}
+
+.about_my_content .phone_fullpage_four .core_technology_content .technology_content_lists::after {
+  content: "\0020";
+  display: block;
+  height: 0;
+  clear: both;
+}
+
+.about_my_content .phone_fullpage_four .core_technology_content .technology_content_lists .list_technology {
+  width: 60.66667vw;
+  height: 73.2vw;
+  background-color: #fff;
+  margin-top: 10.4vw;
+  padding: 11.73333vw 7.06667vw;
+  float: left;
+}
+
+.about_my_content .phone_fullpage_four .core_technology_content .technology_content_lists .list_technology .list_technology_title {
+  color: #333333;
+  font-size: 4vw;
+  text-align: center;
+}
+
+.about_my_content .phone_fullpage_four .core_technology_content .technology_content_lists .list_technology .list_technology_text {
+  color: #999999;
+  font-size: 2.93333vw;
+  text-align: justify;
+  margin-top: 2.26667vw;
+}
+
+.about_my_content .phone_fullpage_four .core_technology_content .technology_content_lists .list_technology .list_technology_img {
+  width: 100%;
+  margin-top: 8.4vw;
+}
+
+.about_my_content .phone_fullpage_four .core_technology_content .swiper-pagination {
+  bottom: 60vw;
+}
+
+.about_my_content .phone_fullpage_five {
+  background: url(../img/5.png) no-repeat;
+  background-size: 100% 100%;
+  position: relative;
+}
+
+.about_my_content .phone_fullpage_five .phone_plate_title {
+  color: white;
+}
+
+.about_my_content .phone_fullpage_five .time_axis_bigevent {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  margin-top: 6.13333vw;
+}
+
+.about_my_content .phone_fullpage_five .time_axis_bigevent .left_car_content {
+  flex: 3;
+}
+
+.about_my_content .phone_fullpage_five .time_axis_bigevent .left_car_content .left_car_list {
+  width: 30vw;
+  background-color: #2284f1;
+  border-radius: 1.33333vw;
+  padding: 4vw 3.33333vw;
+  position: relative;
+  margin-right: 5vw;
+  float: right;
+  margin-bottom: 11.5vw;
+}
+
+.about_my_content .phone_fullpage_five .time_axis_bigevent .left_car_content .left_car_list .left_car_title {
+  color: white;
+  font-size: 3.46667vw;
+  margin-bottom: 2vw;
+}
+
+.about_my_content .phone_fullpage_five .time_axis_bigevent .left_car_content .left_car_list .left_car_text {
+  color: white;
+  font-size: 2.93333vw;
+  text-align: justify;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+}
+
+.about_my_content .phone_fullpage_five .time_axis_bigevent .left_car_content .left_car_list .right_point {
+  width: 0vw;
+  height: 0vw;
+  position: absolute;
+  right: -6.66667vw;
+  top: 50%;
+  transform: translateY(-76%);
+  border-left: 3.33333vw solid #2284f1;
+  border-top: 3.33333vw solid rgba(255, 255, 255, 0);
+  border-right: 3.33333vw solid rgba(255, 255, 255, 0);
+  border-bottom: 3.33333vw solid rgba(255, 255, 255, 0);
+}
+
+.about_my_content .phone_fullpage_five .time_axis_bigevent .time_axis {
+  width: 10vw;
+  margin-top: 10.13333vw;
+}
+
+.about_my_content .phone_fullpage_five .time_axis_bigevent .time_axis .line_content_one, .about_my_content .phone_fullpage_five .time_axis_bigevent .time_axis .line_content_tow {
+  width: 10vw;
+  height: 19.06667vw;
+  position: relative;
+}
+
+.about_my_content .phone_fullpage_five .time_axis_bigevent .time_axis .line_content_one .spot_dom_one {
+  width: 1.33333vw;
+  height: 1.33333vw;
+  background-color: white;
+  border: 0.66667vw solid #67baf9;
+  border-radius: 50%;
+  position: absolute;
+  top: 0vw;
+  left: -1vw;
+}
+
+.about_my_content .phone_fullpage_five .time_axis_bigevent .time_axis .line_content_one .line_oblique_one {
+  border-top: 0.26667vw solid #fff;
+  width: 20vw;
+  transform: rotate(63deg);
+  transform-origin: 0% 0%;
+  position: relative;
+  top: 2vw;
+  left: 1vw;
+}
+
+.about_my_content .phone_fullpage_five .time_axis_bigevent .time_axis .line_content_tow .spot_dom_tow {
+  width: 1.33333vw;
+  height: 1.33333vw;
+  background-color: white;
+  border: 0.66667vw solid #67baf9;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  right: -1vw;
+}
+
+.about_my_content .phone_fullpage_five .time_axis_bigevent .time_axis .line_content_tow .line_oblique_tow {
+  border-top: 0.26667vw solid #fff;
+  width: 20vw;
+  transform: rotate(-63deg);
+  transform-origin: 0% 0%;
+  position: absolute;
+  top: 20.6vw;
+}
+
+.about_my_content .phone_fullpage_five .time_axis_bigevent .right_car_content {
+  flex: 3;
+}
+
+.about_my_content .phone_fullpage_five .time_axis_bigevent .right_car_content .right_car_list {
+  width: 30vw;
+  background-color: #2284f1;
+  border-radius: 1.33333vw;
+  padding: 4vw 3.33333vw;
+  position: relative;
+  margin-left: 5vw;
+  float: left;
+  margin-bottom: 11.5vw;
+}
+
+.about_my_content .phone_fullpage_five .time_axis_bigevent .right_car_content .right_car_list .right_car_title {
+  color: white;
+  font-size: 3.46667vw;
+  margin-bottom: 2vw;
+}
+
+.about_my_content .phone_fullpage_five .time_axis_bigevent .right_car_content .right_car_list .right_car_text {
+  color: white;
+  font-size: 2.93333vw;
+  text-align: justify;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+  height: 12vw;
+}
+
+.about_my_content .phone_fullpage_five .time_axis_bigevent .right_car_content .right_car_list .left_point {
+  width: 0vw;
+  height: 0vw;
+  position: absolute;
+  left: -6.66667vw;
+  top: 50%;
+  transform: translateY(-76%);
+  border-left: 3.33333vw solid rgba(255, 255, 255, 0);
+  border-top: 3.33333vw solid rgba(255, 255, 255, 0);
+  border-right: 3.33333vw solid #2284f1;
+  border-bottom: 3.33333vw solid rgba(255, 255, 255, 0);
+}
+
+.about_my_content .phone_fullpage_six {
+  background: url(../img/6.png) no-repeat;
+  background-size: 100% 100%;
+  position: relative;
+}
+
+.about_my_content .phone_fullpage_six .phone_plate_title {
+  color: #333333;
+}
+
+.about_my_content .phone_fullpage_six .media_content_modular {
+  width: 92vw;
+  margin: 10.93333vw auto 0;
+}
+
+.about_my_content .phone_fullpage_six .media_content_modular .media_content_list {
+  padding: 5.6vw 0;
+  background-color: #fff;
+  margin-bottom: 4vw;
+}
+
+.about_my_content .phone_fullpage_six .media_content_modular .media_content_list::after {
+  content: "\0020";
+  display: block;
+  height: 0;
+  clear: both;
+}
+
+.about_my_content .phone_fullpage_six .media_content_modular .media_content_list .company_logo_img {
+  float: left;
+  width: 23.06667vw;
+  height: 12.26667vw;
+  border-right: 0.2666vw dashed #bfbfbf;
+}
+
+.about_my_content .phone_fullpage_six .media_content_modular .media_content_list .list_cooperation {
+  width: 62.66667vw;
+  float: left;
+  color: #666666;
+  font-size: 3.46667vw;
+  padding-left: 3.33333vw;
+  line-height: 6vw;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+}
+
+.about_my_content .phone_fullpage_seven {
+  background: url(../img/7.png) no-repeat;
+  background-size: 100% 100%;
+  position: relative;
+}
+
+.about_my_content .phone_fullpage_seven .phone_plate_title {
+  color: white;
+}
+
+.about_my_content .phone_fullpage_seven .cooperation_and_support {
+  text-align: justify;
+  width: 85.33333vw;
+  margin: 10.8vw auto 7.2vw;
+  overflow: hidden;
+}
+
+.about_my_content .phone_fullpage_seven .cooperation_and_support img {
+  width: 40vw;
+  height: 20vw;
+  margin-bottom: 6.66667vw;
+}
+
+.about_my_content .phone_fullpage_seven .codepku_bottom_img {
+  width: 100%;
+  height: 5.6vw;
+  text-align: center;
+}
+
+.about_my_content .phone_fullpage_seven .codepku_bottom_img .codepku_loge_img {
+  height: 100%;
+}
+
+@-webkit-keyframes myanimate {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes myanimate {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
